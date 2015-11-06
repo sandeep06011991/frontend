@@ -1,0 +1,81 @@
+body{
+    background-color:cyan ;
+}
+
+.round_black_border{
+    border:solid black 2px;
+    border-radius:10px;
+}
+
+#container{
+    margin:30px;
+    width:1200px;
+}
+
+#slider{
+    position:relative;
+    margin:10px;
+    height:480px;
+    width:640px;
+    overflow:hidden;
+    margin-right:400px;
+
+
+}
+.play{
+background-position:0px 2px;
+}
+.pause{
+background-position:0px 38px;
+}
+
+.button_sprite{
+float:left;
+height:37px;
+width:40px;
+background-image:url('./buttons.png');
+background-size:80px;
+}
+
+.numbered_button{
+float:left;
+height:37px;
+width:30px;
+font-size:25px;
+color:black;
+background-color:#FF6700;
+text-align:center;
+
+}
+.disabled{
+    opacity:.3;
+}
+.enabled{
+    opacity:1;
+}
+.btn-hide{
+display:None;
+}
+
+
+.control_set{
+position:absolute;
+height:40px;
+left:430px;
+top:20px;
+z-index:100;
+cursor:pointer;
+}
+
+.abs_slides{
+position:absolute;
+}
+
+
+#designDoc{
+    float:right;
+    width:480px;
+    margin:10px;
+    padding:20px;
+    font-family:mono;
+}
