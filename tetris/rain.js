@@ -14,10 +14,10 @@
             4:1800
         }
         score=0;
-        canvasProp={
-            width:600,//Dont Change this too much
-            height:1000,
-            noBlocks:12 ,//in each row
+        canvasProp={//block width
+            width:250,//Dont Change this too much
+            height:500,
+            noBlocks:10 ,//in each row
             blockColor:'grey',
             keyLag:10,
             refreshScFreq:500,
