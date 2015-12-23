@@ -1,0 +1,40 @@
+.text{
+    color:green;
+    font-family:'mono';
+}
+body{
+    background-color:black;
+}
+.heading{
+        font-size:100px;
+        font-weight:bold;
+        text-align:center;
+        margin-top:20px;
+}
+#game-console{
+    width:1000px;
+    margin:auto;
+    margin-top:50px;
+    border:solid white 3px;
+    }
+
+canvas{
+    border:solid 1px green;
+    background-color:green;
+    margin-right:10px;
+}
+#controls{
+    font-family:'mono';
+    font-size:40px;
+    float:right;
+    width:340px;
+    margin-right:20px;
+    margin-top:300px;
+    color:green;
+}
+
+button{
+font-size:40px;}
+
+#score{float:right;
+margin-right:40px;}
