@@ -270,11 +270,11 @@
                 1:'square',
                 2:'leftZig',
                 3:'rightZig',
-                4:'lefthook'
+                4:'lefthook',
+                5:'pin'
 
             }
             function generateRandomInteger(){
-
                return  Math.floor((Math.random() * 10) + 1)%Object.keys(blockMap).length;
             }
 
@@ -290,6 +290,12 @@
                                     [0,0,0,1,0,-1,1,-1],
                                     [0,0,1,0,2,0,2,1],
                                     [1,0,1,1,0,1,1,-1]],
+                        pin:[[0,0,0,1,1,0,0,-1],
+                            [0,0,0,1,-1,1,1,1,],
+                            [0,0,1,-1,1,0,1,1],
+                            [0,0,0,-1,-1,-1,1,-1]
+                           ],
+
                     }
 
             function getRandomBlockData(){
